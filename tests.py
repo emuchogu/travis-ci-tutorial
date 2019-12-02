@@ -9,6 +9,7 @@ class IsPrimeTests(unittest.TestCase):
 
     def test_four(self):
         self.assertFalse(is_prime(4))
+       
 
 if __name__ == "__main__":
     unittest.main()
